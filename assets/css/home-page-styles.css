@@ -14,12 +14,12 @@ body::before {
   width: 100%;
   height: 100%;
   position: absolute;
-  opacity: 0.2;
+  opacity: 0.1;
   transition: background-image 1s ease-in-out, opacity 1s ease-in-out;
 }
 
 .s-menu {
-  padding: 1rem 0;
+  padding: 1rem 1;
   width: 100%;
   text-align: center;
   position: relative;
@@ -28,13 +28,15 @@ body::before {
 .s-menu__item {
   display: inline-block;
   text-transform: uppercase;
-  margin: 0 2.0rem;
+  margin: 0 2.5rem;
+  width: 3.5rem;
 }
 
 .s-menu__icon {
-  width: 8.5rem;
+  width: 9rem;
   margin: 0 2.25rem;
   vertical-align: middle;
+  height: 15vh;
 }
 
 .s-container {
@@ -42,13 +44,14 @@ body::before {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  perspective: 3000px;
+  perspective: 2000px;
+  height: 5vh;
 }
 
 .s-card {
   border: 0.5rem solid white;
   width: 100%;
-  height: 70vh;
+  height: 65vh;
   position: absolute;
   transition: filter .5s ease-in-out;
 }
@@ -98,8 +101,9 @@ body::before {
   justify-content: center;
   align-items: center;
   margin-top: 3rem;
-  bottom: 1.5rem;
+  bottom: 1rem;
   width: 100%;
+  
 }
 
 .s-controller__button {
